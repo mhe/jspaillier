@@ -203,7 +203,7 @@ $(function() {
 			startTime,
 			elapsed;
 		startTime = new Date().getTime();
-		plaintext = keys.sec.decrypt(encABC).intValue()
+		plaintext = keys.sec.decrypt(encABC).toString(10)
 		elapsed = new Date().getTime() - startTime;
 		$('#plainABC').html(plaintext);
 		$('#decrypttime').html(elapsed);
