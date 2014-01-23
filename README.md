@@ -1,9 +1,7 @@
 jspaillier
 ==========
 
-jspaillier is a simple proof-of-concept Javascript implementation of the Paillier homomorphic encryption scheme. A demonstration of the code can be found at [here](http://mhe.github.io/jspaillier/).
-
-Do keep in mind this is proof-of-concept code. Also, doing crypto in Javascript is typically considered to be a Bad Idea (tm), see also the discussion ["Javascript Cryptography Considered Harmful"](http://www.matasano.com/articles/javascript-cryptography/).
+jspaillier is a Javascript implementation of the [Paillier homomorphic encryption scheme](https://en.wikipedia.org/wiki/Paillier_cryptosystem), specifically developed for *demonstration purposes only*. An example page that shows how it can be used for demonstrating how the Paillier crypto systems works can be found at [here](http://mhe.github.io/jspaillier/).
 
 Dependencies
 ------------
