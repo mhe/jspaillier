@@ -1,1 +1,1 @@
-jquery-1.8.1.min.js
+jquery-3.7.1.slim.min.js
